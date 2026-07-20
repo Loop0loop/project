@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Playwright
+.playwright-profile/
+.auth/
+
+# auth
+*.har
+cookies.json
+storage-state.json
+.env
+.env.*

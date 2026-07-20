@@ -1,0 +1,233 @@
+{
+  "collectedAt": "2026-07-20T06:08:16.213Z",
+  "live": {
+    "metricLabel": "조회수",
+    "rows": [
+      {
+        "rank": 1,
+        "title": "세노비스 신상위크×헬시페스타 특집✨",
+        "platform": "네이버쇼핑LIVE",
+        "category": "생활/건강",
+        "broadcastTime": "26.07.20 (월) 13:58",
+        "audience": "1,651",
+        "salesCount": "311",
+        "salesAmount": "1,928만",
+        "productCount": "49"
+      },
+      {
+        "rank": 2,
+        "title": "[LG전자 직영몰] 7월 여름맞이 생활가전 라이브 앵콜",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 14:02",
+        "audience": "493",
+        "salesCount": "14",
+        "salesAmount": "952만",
+        "productCount": "32"
+      },
+      {
+        "rank": 3,
+        "title": "청정원 신상위크 준비 라이브!",
+        "platform": "네이버쇼핑LIVE",
+        "category": "식품",
+        "broadcastTime": "26.07.20 (월) 14:58",
+        "audience": "1,706",
+        "salesCount": "161",
+        "salesAmount": "704만",
+        "productCount": "30"
+      },
+      {
+        "rank": 4,
+        "title": "[AI라이브] 삼성전자 SSD 인기제품 특가 라이브!!",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 13:59",
+        "audience": "143",
+        "salesCount": "14",
+        "salesAmount": "686만",
+        "productCount": "21"
+      },
+      {
+        "rank": 5,
+        "title": "[AI]⭐에어케어⭐ 삼성이 선물하는 스마트 라이프",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 14:00",
+        "audience": "266",
+        "salesCount": "11",
+        "salesAmount": "656만",
+        "productCount": "51"
+      },
+      {
+        "rank": 6,
+        "title": "삼성 외장하드 특가 라이브✨고용량 슬림한 디자인",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 13:58",
+        "audience": "46",
+        "salesCount": "27",
+        "salesAmount": "626만",
+        "productCount": "14"
+      },
+      {
+        "rank": 7,
+        "title": "[AI라이브] 🏡삼성 에어컨들 총집합! 오늘 다솜에서 가전 다품목!",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 14:00",
+        "audience": "167",
+        "salesCount": "5",
+        "salesAmount": "625만",
+        "productCount": "40"
+      },
+      {
+        "rank": 8,
+        "title": "💥삼성 에어컨 냉장고 김치냉장고 키친핏 세트 Live사은품🎁[AI]",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 14:00",
+        "audience": "80",
+        "salesCount": "2",
+        "salesAmount": "582만",
+        "productCount": "46"
+      },
+      {
+        "rank": 9,
+        "title": "🎧갤럭시 버즈 라이브 🍀",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 13:59",
+        "audience": "541",
+        "salesCount": "14",
+        "salesAmount": "443만",
+        "productCount": "6"
+      },
+      {
+        "rank": 10,
+        "title": "JBL 사운드바 무선헤드폰 블루투스스피커 어린이헤드셋 특가",
+        "platform": "네이버쇼핑LIVE",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 13:58",
+        "audience": "280",
+        "salesCount": "9",
+        "salesAmount": "241만",
+        "productCount": "41"
+      }
+    ]
+  },
+  "homeShopping": {
+    "metricLabel": "시청률",
+    "rows": [
+      {
+        "rank": 1,
+        "title": "산지직송] 다온바다 왕특대사이즈 16미(미당 100g이상) 총 1.6kg이상",
+        "platform": "홈앤쇼핑",
+        "category": "식품",
+        "broadcastTime": "26.07.20 (월) 14:20",
+        "audience": "",
+        "salesCount": "1,067",
+        "salesAmount": "4,573만",
+        "productCount": "3"
+      },
+      {
+        "rank": 2,
+        "title": "[LBL] (런칭가 69,900원) 26 SUMMER 크링클 반팔 자켓",
+        "platform": "롯데홈쇼핑",
+        "category": "패션의류",
+        "broadcastTime": "26.07.20 (월) 14:40",
+        "audience": "",
+        "salesCount": "851",
+        "salesAmount": "4,163만",
+        "productCount": "7"
+      },
+      {
+        "rank": 3,
+        "title": "참기름의 정석 국산 참기름 세트 150ml X 4병+스틱들기름6매",
+        "platform": "공영쇼핑",
+        "category": "식품",
+        "broadcastTime": "26.07.20 (월) 14:45",
+        "audience": "",
+        "salesCount": "590",
+        "salesAmount": "3,527만",
+        "productCount": "11"
+      },
+      {
+        "rank": 4,
+        "title": "[7월중마지막생방송] 락토핏 당케어프로 8+4개월+저당밥솥1대",
+        "platform": "현대홈쇼핑",
+        "category": "식품",
+        "broadcastTime": "26.07.20 (월) 14:25",
+        "audience": "",
+        "salesCount": "226",
+        "salesAmount": "3,022만",
+        "productCount": "2"
+      },
+      {
+        "rank": 5,
+        "title": "26SS ODV 썸머 쿨 팬츠 4종",
+        "platform": "쇼핑엔티",
+        "category": "패션의류",
+        "broadcastTime": "26.07.20 (월) 14:33",
+        "audience": "",
+        "salesCount": "375",
+        "salesAmount": "1,834만",
+        "productCount": "1"
+      },
+      {
+        "rank": 6,
+        "title": "조선호텔 닭갈비 300g X 7팩 (직)",
+        "platform": "신세계쇼핑",
+        "category": "식품",
+        "broadcastTime": "26.07.20 (월) 14:33",
+        "audience": "",
+        "salesCount": "443",
+        "salesAmount": "1,823만",
+        "productCount": "3"
+      },
+      {
+        "rank": 7,
+        "title": "마리나 캐리어 풀세트 (캐리어+트라이크+전용방석+가드링+버킷백)",
+        "platform": "CJ온스타일",
+        "category": "출산/육아",
+        "broadcastTime": "26.07.20 (월) 14:35",
+        "audience": "",
+        "salesCount": "63",
+        "salesAmount": "1,711만",
+        "productCount": "2"
+      },
+      {
+        "rank": 8,
+        "title": "SK 광목 피그먼트 워싱스프레드2종",
+        "platform": "CJ온스타일 플러스",
+        "category": "가구/인테리어",
+        "broadcastTime": "26.07.20 (월) 14:45",
+        "audience": "",
+        "salesCount": "123",
+        "salesAmount": "1,485만",
+        "productCount": "4"
+      },
+      {
+        "rank": 9,
+        "title": "[1+1+1세트] 스타일리스 미니 에어젯 휴대용 선풍기",
+        "platform": "SK스토아",
+        "category": "디지털/가전",
+        "broadcastTime": "26.07.20 (월) 14:31",
+        "audience": "",
+        "salesCount": "238",
+        "salesAmount": "1,283만",
+        "productCount": "3"
+      },
+      {
+        "rank": 10,
+        "title": "갈비탕1",
+        "platform": "NS홈쇼핑 샵플러스",
+        "category": "식품",
+        "broadcastTime": "26.07.20 (월) 14:41",
+        "audience": "",
+        "salesCount": "211",
+        "salesAmount": "1,262만",
+        "productCount": "4"
+      }
+    ]
+  }
+}
