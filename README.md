@@ -13,7 +13,7 @@ pnpm dev
 
 ## 데이터 갱신
 
-최초 한 번만 브라우저에서 로그인해 인증 상태를 저장합니다. 인증 파일은 Git에서 제외됩니다.
+최초 한 번만 브라우저에서 로그인해 영구 프로필에 인증 상태를 저장합니다. 이 프로필은 Git에서 제외됩니다.
 
 ```bash
 pnpm auth:init
@@ -32,7 +32,7 @@ pnpm refresh
 pnpm dev:fresh
 ```
 
-세션이 만료되면 `pnpm auth:init`을 다시 실행하면 됩니다.
+`auth:init`과 `collect`는 같은 영구 프로필을 사용하므로 갱신된 세션 쿠키가 유지됩니다. 세션이 만료되면 `pnpm auth:init`을 다시 실행하면 됩니다.
 
 ## 검증
 

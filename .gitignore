@@ -27,6 +27,7 @@ dist-ssr
 .playwright-profile/
 .auth/
 playwright/.auth/
+playwright/.profile/
 
 # auth
 *.har

@@ -3,7 +3,7 @@ import { resolve } from 'node:path'
 import { chromium, type Locator, type Page } from 'playwright'
 
 const BASE_URL = 'https://live.ecomm-data.com/assignment'
-const AUTH_FILE = resolve('playwright/.auth/user.json')
+const PROFILE_PATH = resolve('playwright/.profile')
 const LIVE_OUTPUT_PATH = resolve('src/data/broadcasts-live.json')
 const HOME_OUTPUT_PATH = resolve('src/data/broadcasts-home.json')
 
@@ -42,11 +42,11 @@ function getKoreanDate(date = new Date()): string {
   return `${values.year}-${values.month}-${values.day}`
 }
 
-async function assertAuthFileExists(): Promise<void> {
+async function assertProfileExists(): Promise<void> {
   try {
-    await access(AUTH_FILE, constants.R_OK)
+    await access(PROFILE_PATH, constants.R_OK)
   } catch {
-    throw new Error('인증 파일이 없습니다. 먼저 pnpm run auth:init을 실행하세요.')
+    throw new Error('인증 프로필이 없습니다. 먼저 pnpm run auth:init을 실행하세요.')
   }
 }
 
@@ -107,16 +107,15 @@ async function collectType(page: Page, type: SourceType): Promise<BroadcastTable
 }
 
 async function main(): Promise<void> {
-  await assertAuthFileExists()
+  await assertProfileExists()
 
-  const browser = await chromium.launch({ headless: true })
-  const context = await browser.newContext({
-    storageState: AUTH_FILE,
+  const context = await chromium.launchPersistentContext(PROFILE_PATH, {
+    headless: false,
     locale: 'ko-KR',
     timezoneId: 'Asia/Seoul',
     extraHTTPHeaders: { 'cache-control': 'no-cache', pragma: 'no-cache' },
   })
-  const page = await context.newPage()
+  const page = context.pages()[0] ?? (await context.newPage())
   const live = await collectType(page, 'lb')
   const homeShopping = await collectType(page, 'hs')
   const collectedAt = new Date().toISOString()
@@ -127,7 +126,7 @@ async function main(): Promise<void> {
     writeFile(LIVE_OUTPUT_PATH, JSON.stringify({ collectedAt, dataDate, live }, null, 2)),
     writeFile(HOME_OUTPUT_PATH, JSON.stringify({ collectedAt, dataDate, homeShopping }, null, 2)),
   ])
-  await browser.close()
+  await context.close()
 
   console.log(`라방·홈쇼핑 ${dataDate} 데이터 저장 완료`)
 }
