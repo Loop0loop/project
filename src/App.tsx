@@ -60,11 +60,11 @@ function App() {
                     <p className="mt-1 text-xs text-slate-400">{broadcast.platform}</p>
                   </td>
                   <td className="px-5 py-5 text-slate-500">{broadcast.category || UNAVAILABLE_VALUE}</td>
-                  <td className="px-5 py-5 text-slate-600">{broadcast.time}</td>
-                  <td className="px-5 py-5 text-center text-slate-400">{UNAVAILABLE_VALUE}</td>
-                  <td className="px-5 py-5 text-center text-slate-400">{UNAVAILABLE_VALUE}</td>
-                  <td className="px-5 py-5 text-center text-slate-400">{UNAVAILABLE_VALUE}</td>
-                  <td className="px-5 py-5 text-center font-semibold text-slate-600">{broadcast.products}</td>
+                  <td className="px-5 py-5 text-slate-600">{broadcast.broadcastTime}</td>
+                  <td className="px-5 py-5 text-center text-slate-400">{broadcast.audience || UNAVAILABLE_VALUE}</td>
+                  <td className="px-5 py-5 text-center text-slate-400">{broadcast.salesCount || UNAVAILABLE_VALUE}</td>
+                  <td className="px-5 py-5 text-center text-slate-400">{broadcast.salesAmount || UNAVAILABLE_VALUE}</td>
+                  <td className="px-5 py-5 text-center font-semibold text-slate-600">{broadcast.productCount || UNAVAILABLE_VALUE}</td>
                 </tr>
               ))}
             </tbody>
