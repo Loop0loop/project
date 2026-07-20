@@ -6,7 +6,7 @@ import { stdin as input, stdout as output } from "node:process";
 
 const ASSIGNMENT_URL = "https://live.ecomm-data.com/assignment";
 const PROFILE_PATH = resolve(".playwright-profile");
-const OUTPUT_PATH = resolve("src/data/broadcasts.json");
+const OUTPUT_PATH = resolve("src/data/broadcasts-live.json");
 
 type BroadcastRow = {
   rank: number;

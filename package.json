@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "collect": "tsx scripts/collecct.ts"
+    "collect-live": "tsx scripts/collect-live.ts",
+    "collect-home" : "tsx scripts/collect-home.ts"
   },
   "dependencies": {
     "react": "^19.2.7",
