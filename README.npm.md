@@ -9,11 +9,12 @@ pnpm 사용 방법은 [README.md](README.md)를 참고하세요.
 - Node.js 20 이상 (Node.js 22.23.0에서 확인)
 - npm
 
-Playwright는 데이터 갱신 기능에서만 사용합니다. 평가자는 Playwright 설치나 로그인을 하지 않아도 됩니다.
 
 ## 실행 방법
 
 ```bash
+git clone https://github.com/Loop0loop/project.git
+cd project
 npm install
 npm run dev
 ```
