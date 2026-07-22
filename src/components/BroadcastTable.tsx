@@ -1,5 +1,12 @@
+/**
+ * 방송 목록 Table components
+ * 전달받은 방송 타입과 방송 목록을 바탕으로 표 렌더링
+ */
+
+// 상수 import
 import { METRIC_LABEL, UNAVAILABLE_VALUE, type Broadcast, type BroadcastType } from '../constants'
 
+// 
 type BroadcastTableProps = {
   type: BroadcastType
   broadcasts: Broadcast[]
@@ -7,7 +14,7 @@ type BroadcastTableProps = {
 
 export function BroadcastTable({ type, broadcasts }: BroadcastTableProps) {
   return (
-    <div className="mt-8 overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
+    <section className="mt-8 overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
       <table className="min-w-[960px] w-full text-left text-sm">
         <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-500">
           <tr>
@@ -39,6 +46,6 @@ export function BroadcastTable({ type, broadcasts }: BroadcastTableProps) {
           ))}
         </tbody>
       </table>
-    </div>
+    </section>
   )
 }

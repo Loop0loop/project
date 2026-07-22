@@ -38,7 +38,7 @@ auth:init과 collect 모두 같은 .profile 폴더를 브라우저 사용자 데
 
 # constants.ts 데이터 타입 구조 단순화
 
-> Commit Log: refactor: simplify broadcast data types
+> Commit Log: feat:constants.ts Simplification - changeLog 업데이트
 
 - 변경 사항 : 중간 변수를 제거하여 복잡성 최소화
 - 기존 방법의 문제점 : `as LiveSnapshot`, `as HomeSnapshot` 타입 선언으로 중간 변수를 생성하는 작업의 복잡성 증가
