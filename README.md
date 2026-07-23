@@ -2,7 +2,7 @@
 
 라방과 홈쇼핑 방송 목록을 전환해 볼 수 있는 React + Tailwind CSS 페이지입니다. 화면은 저장된 JSON 스냅샷으로 실행되므로 로그인 없이 바로 확인할 수 있습니다.
 
-npm 사용 방법은 [README.npm.md](README.npm.md.md)를 참고하세요.
+npm 사용 방법은 [README.npm.md](README.npm.md)를 참고하세요.
 
 ## 요구 사항
 
