@@ -91,7 +91,7 @@ async function collectTable(page: Page, type: SourceType): Promise<BroadcastTabl
       platform,
       category: cleanText(cells[2]),
       broadcastTime: cleanText(cells[3]),
-      // 라이브 방송은 조회수, 홈쇼핑은 시청률을 별도 필드로 보관한다.
+      // 라이브 방송은 조회수, 홈쇼핑은 시청률을 별도 필드로 보관
       audience: type === 'lb' ? metricValue : '',
       ...(type === 'hs' ? { viewingRate: metricValue } : {}),
       salesCount: cleanText(cells[5]),
