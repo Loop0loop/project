@@ -22,7 +22,8 @@ export type Broadcast = {
   platform: string
   category: string
   broadcastTime: string
-  audience: string
+  audience?: string
+  viewingRate?: string
   salesCount: string
   salesAmount: string
   productCount: string
@@ -31,8 +32,11 @@ export type Broadcast = {
 /**
  * UI에 표시할 방송 기준 날짜
  * dataDate가 없을 시  collectedAt의 ISO 날짜 문자열 10글자를 (YYYY-MM-DD) 사용
+ * 날자 데이터가 없을 시 오늘 날짜로 fallback 적용
  */
-const dataDate = liveData.dataDate ?? liveData.collectedAt.slice(0, 10)
+const today = new Date().toLocaleDateString("sv-SE")
+const dataDate = liveData.dataDate 
+?? (liveData.collectedAt ? liveData.collectedAt.slice(0,10) : today)
 
 // - , . 제거하여 UI에 표시
 export const REFERENCE_DATE = `${dataDate.replaceAll('-', '.')} 방송 기준`
